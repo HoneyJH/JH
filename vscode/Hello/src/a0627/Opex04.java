@@ -1,5 +1,3 @@
-package A_2_Operator;
-
 public class Opex04 {
     public static void main(String[] args) {
         int pencils = 534;

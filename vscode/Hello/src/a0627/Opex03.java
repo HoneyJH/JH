@@ -1,5 +1,3 @@
-package A_2_Operator;
-
 public class Opex03 {
     public static void main(String[] args) {
         int score = 85;

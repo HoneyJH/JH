@@ -1,5 +1,3 @@
-package A_2_Operator;
-
 public class Opex08 {
     public static void main(String[] args) {
         // double x = 5.0;

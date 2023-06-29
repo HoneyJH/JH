@@ -1,5 +1,3 @@
-package A_2_Operator;
-
 public class BitShiftExample {
     public static void main(String[] args) {
         int num1 = 1;
