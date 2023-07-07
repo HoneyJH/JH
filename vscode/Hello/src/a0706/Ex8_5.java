@@ -7,10 +7,10 @@ public class Ex8_5 {
         Calendar calendar = Calendar.getInstance();
 
 
-        int year = calendar.get(Calendar.YEAR);
-        int month = calendar.get(Calendar.MONTH) + 1; // 월은 0부터 시작하므로 +1
+        int year = calendar.get(Calendar.YEAR) *10000;
+        int month = (calendar.get(Calendar.MONTH) + 1)*100; // 월은 0부터 시작하므로 +1
         int day = calendar.get(Calendar.DAY_OF_MONTH);
-        System.out.println("Current Date: " + year + "년" + month + "월" + day + "일");
+        int today = year + month + day;
 
         
         System.out.println("주민번호 앞 6자리를 입력하세요");
@@ -20,10 +20,10 @@ public class Ex8_5 {
         int age = 0;
 
         if (num2 == 1 || num2 == 2) {
-            age = (20230706 - (19000000 + num1)) / 10000;
+            age = (today - (19000000 + num1)) / 10000;
             System.out.println("나이:" + age);
         } else {
-            age = (20230706 - (20000000 + num1)) / 10000;
+            age = (today - (20000000 + num1)) / 10000;
             System.out.println("나이:" + age);
         }
 
